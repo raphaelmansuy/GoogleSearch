@@ -1,0 +1,34 @@
+{
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Pandassur: Assurance emprunteur au meilleur prix",
+      "link": "https://www.pandassur.fr/",
+      "displayed_link": "https://www.pandassur.fr",
+      "favicon": "https://serpapi.com/searches/649b809e1d986e4159b015ef/images/ac537d6b0c8b0d9c3e78737ba299da3e3d586dffda7a4f1f4066691069295be5.png",
+      "snippet": "Pandassur est spécialisé dans les assurances emprunteurs au meilleur prix. Contactez-nous dès maintenant pour obtenir un devis gratuit et souscrire en ...",
+      "snippet_highlighted_words": ["Pandassur"],
+      "about_this_result": {
+        "keywords": ["pandassur"],
+        "languages": ["français"],
+        "regions": ["France"]
+      },
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:-1W3_dJUALgJ:https://www.pandassur.fr/&cd=1&hl=fr&ct=clnk&gl=fr",
+      "source": "pandassur.fr"
+    },
+    {
+      "position": 2,
+      "title": "pandassur",
+      "link": "https://www.youtube.com/channel/UCJ8sMmrJKw4W0bibuZaeaNw",
+      "displayed_link": "https://www.youtube.com/channel",
+      "favicon": "https://serpapi.com/searches/649b809e1d986e4159b015ef/images/ac537d6b0c8b0d9c3e78737ba299da3e1a76be392fc6f9adf2ea9aa754be5ee5.png",
+      "snippet": "Bienvenue sur notre chaîne Youtube dédiée aux finances personnelles et à l'assurance emprunteur au juste prix. Restez à jour sur les dernières tendances du ...",
+      "about_this_result": {
+        "keywords": ["pandassur"],
+        "languages": ["français"],
+        "regions": ["France"]
+      },
+      "source": "YouTube"
+    }
+  ]
+}
