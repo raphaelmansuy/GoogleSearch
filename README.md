@@ -97,6 +97,13 @@ Result:
 }
 ```
 
+## How to deploy with modal.com
+
+```bash
+model deploy google-search.py
+```
+
+
 ## Contributing
 
 1. Fork the repository
