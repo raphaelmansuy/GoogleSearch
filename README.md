@@ -103,6 +103,17 @@ Result:
 model deploy google-search-modal.py
 ```
 
+After deployment:
+
+```bash
+├── 🔨 Created mount google_search
+├── 🔨 Created search => https://XXXX--google-search-search.modal.run
+└── 🔨 Created mount /Users/raphaelmansuy/Github/GoogleSearch/google-search-modal.py
+✓ App deployed! 🎉
+
+View Deployment: https://modal.com/apps/XXXX/google-search
+```
+
 
 ## Contributing
 
