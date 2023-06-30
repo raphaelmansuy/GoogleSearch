@@ -124,7 +124,7 @@ async def search(query: str, headless: bool = True):
             error = {
                 "error": str(e)
             }
-            return json.dumps(error, indent=2)
+            return error
         finally:
             # Close the browser
             await context.close()
