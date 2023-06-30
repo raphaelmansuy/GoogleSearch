@@ -100,7 +100,7 @@ Result:
 ## How to deploy with modal.com
 
 ```bash
-model deploy google-search.py
+model deploy google-search-modal.py
 ```
 
 
