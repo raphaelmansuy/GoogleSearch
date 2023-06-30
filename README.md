@@ -114,6 +114,12 @@ After deployment:
 View Deployment: https://modal.com/apps/XXXX/google-search
 ```
 
+Query:
+
+```bash
+curl https://XXXX--google-search-search.modal.run/\?query\=pandassur | jq
+```
+
 
 ## Contributing
 
