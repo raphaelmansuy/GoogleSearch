@@ -4,7 +4,7 @@ import sys
 import asyncio
 
 
-import google.search as google_search
+import google_search.search as google_search
 
 
 async def main():
@@ -25,7 +25,6 @@ async def main():
 
     # Print the results in JSON format to stdout nicely formatted 
     # inccluding a special character to be used with jq
-
 
     # Write the results in JSON format to stdout
     sys.stdout.write(res)

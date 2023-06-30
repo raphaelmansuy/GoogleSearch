@@ -4,7 +4,7 @@ import playwright
 from playwright.async_api import async_playwright
 
 
-async def search(query: str, headless: bool = True) -> None:
+async def search(query: str, headless: bool = True):
     """
     This function searches Google for the given query and returns the organic search results in JSON format.
     :param query: The search query
@@ -117,12 +117,14 @@ async def search(query: str, headless: bool = True) -> None:
                 "organic_results": search_results
             }
 
-            # Convert the dictionary to JSON format
-            json_data = json.dumps(json_result, indent=2)
+            json_data =  json_result
 
             return json_data
         except Exception as e:
-            print(e)
+            error = {
+                "error": str(e)
+            }
+            return json.dumps(error, indent=2)
         finally:
             # Close the browser
             await context.close()
